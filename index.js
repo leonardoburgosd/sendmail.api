@@ -8,10 +8,11 @@ app.use(express.json());
 const port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-    const html = `<html>
-    <body>
+    const html = `
+    <html>
+    <body style='background:#303030; color:#E1E1E1;'>
         <h1>Bienvenido a mi primera App con NodeJS y Express - By. Leonardo Burgos</h1>
-        <a href='https://leonardoburgosd.site' target='_blank'
+        <a href='https://leonardoburgosd.site' style='color: #005BE8' target='_blank'
         rel='noreferrer' >Ir a mi web </a>
     </body>
     </html>`;
